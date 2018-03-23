@@ -3,7 +3,7 @@
 Recently pof.com updated their captcha from a ***custom*** captcha image
  to Google Invisible reCaptcha.
  
-Project contains a python library that can solve ***previous*** pof.com captchas
+Project contains a library that can solve the **older** type of captchas, that pof.com used
 
 ----
 The idea behind this captcha is that each time an image with 10 letters is generated. Each letter has 
