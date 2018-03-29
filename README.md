@@ -13,13 +13,6 @@ The idea behind this captcha is that each time an image with 10 letters is gener
 The library uses opencv2 to figure out where the circles are located and tesseract to 
 find out the letters. Afterwards, this data is matched together and the *needed* 5 letters are returned. 
 
-
-### Example
-
-<img src="http://i.imgur.com/M8ETovM.png">
-
-This would return **wryer**
-
 ### Dependencies
 
 - python2.7+
@@ -32,6 +25,14 @@ Arch linux users can install opencv2 with `yaourt opencv2` - takes a bit to buil
  run, but the results won't be the right ones
 
 pytesseract can be installed  using pip `pip2.7 install pytesseract`
+
+
+### Example
+
+<img src="http://i.imgur.com/M8ETovM.png">
+
+This would return **wryer**
+
 
 ### Success rate
 
