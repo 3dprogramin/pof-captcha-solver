@@ -14,10 +14,11 @@ The library uses opencv2 to figure out where the circles are located and tessera
 find out the letters. Afterwards, this data is matched together and the *needed* 5 letters are returned. 
 
 
-<p align="center">
-<img src="http://i.imgur.com/cSnhXP0.png"> - **wryer**
-</p>
+### Example
 
+<img src="http://i.imgur.com/M8ETovM.png">
+
+This would return **wryer**
 
 ### Dependencies
 
