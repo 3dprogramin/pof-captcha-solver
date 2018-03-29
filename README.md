@@ -13,6 +13,12 @@ The idea behind this captcha is that each time an image with 10 letters is gener
 The library uses opencv2 to figure out where the circles are located and tesseract to 
 find out the letters. Afterwards, this data is matched together and the *needed* 5 letters are returned. 
 
+
+<p align="center">
+<img src="http://i.imgur.com/cSnhXP0.png"> - **wryer**
+</p>
+
+
 ### Dependencies
 
 - python2.7+
